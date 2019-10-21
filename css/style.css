@@ -1,0 +1,63 @@
+/**************************
+COLORS:
+dark grey:  #222831;
+light grey: #393e46;
+blue:       #00adb5;
+brightBlue: #00fff5;
+
+****************************/
+
+/**************************
+Home page
+****************************/
+
+body, html {
+    height: 100%;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+.home-background-cover {
+    background-image: url(../img/space.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome {
+    text-shadow: 0 0 3px #17181C;
+    text-shadow: 5px 5px 5px #17181C;
+    color: white;
+}
+
+.profile h2 {
+    text-shadow: 0 0 3px #17181C;
+    text-shadow: 5px 5px 5px #17181C;
+}
+
+.profile {
+    background: rgba(0,0,0,0.5);
+}
+
+/* SOCIAL LINKS ICONS */
+.social-list {
+	padding-left: 0;
+	padding-top: 0.5rem;
+}
+
+.social-list li {
+	list-style: none;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-right: 6px;
+	margin-top: 10px;
+	color: #00adb5;
+}
+.social-icon i {
+    font-size: 30px;
+    color: #00adb5;
+}
+.social-icon i:hover {
+	color: #00fff5;
+}
