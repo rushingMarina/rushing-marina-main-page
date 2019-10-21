@@ -27,12 +27,13 @@ body, html {
 .welcome {
     text-shadow: 0 0 3px #17181C;
     text-shadow: 5px 5px 5px #17181C;
-    color: white;
+    color: #393e46;
 }
 
+.profile h1,
 .profile h2 {
-    text-shadow: 0 0 3px #17181C;
     text-shadow: 5px 5px 5px #17181C;
+    color:  #393e46;
 }
 
 .profile {
