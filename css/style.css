@@ -5,6 +5,7 @@ light grey: #393e46;
 blue:       #00adb5;
 brightBlue: #00fff5;
 
+pics for articles are: 640x427
 ****************************/
 
 /**************************
@@ -14,6 +15,7 @@ Home page
 body, html {
     height: 100%;
     font-family: 'Roboto Mono', monospace;
+    background-color: #393e46;
   }
 
 .home-background-cover {
@@ -33,11 +35,11 @@ body, html {
 .profile h1,
 .profile h2 {
     text-shadow: 5px 5px 5px #17181C;
-    color:  #393e46;
+    color:  #00adb5;
 }
 
 .profile {
-    background: rgba(0,0,0,0.5);
+    background: rgba(34,40,49,0.5);
 }
 
 /* SOCIAL LINKS ICONS */
@@ -61,4 +63,15 @@ body, html {
 }
 .social-icon i:hover {
 	color: #00fff5;
+}
+
+/**************************
+Articles
+****************************/
+
+.articles h1, 
+.articles h2 ,
+.articles p {
+    color: #00adb5;
+
 }
