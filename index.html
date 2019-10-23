@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- style CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -18,9 +19,9 @@
 <body>
     <article class="vh-100 dt w-100 home-background-cover">
     <div class="dtc v-mid tc white ph3 ph4-l">
-        <h1 class="animated fadeInDown delay-1s f6 f2-m f-subheadline-l fw6 tc welcome">Welcome to<br/> Rushing Marina </h1>
+        <h1 class="animated fadeInDown delay-1s f6 f2-m f-subheadline-l fw6 tc welcome"><div class="logo">Welcome</div> to Rushing Marina </h1>
         <div class="profile tc animated fadeInUp delay-1s mw5 center br3 pa3 pa4-ns mv3 ba b--black-10">
-                <img src="img/marina.png" class="br-100 h4 w4 dib ba b--black-05 pa2" title="Marina">
+                <img src="img/marina.png" class="myimg br-100 h4 w4 dib ba b--black-05 pa2" title="Marina">
                 <h1 class="f3 mb2">Marina P.</h1>
                 <h2 class="f5 fw4 mt0">I am glad to see you on my webpage</h2>
                 <ul class="social-list">
@@ -33,63 +34,80 @@
     </article>
 
     <section class="mw7 center articles">
-        <h2 class="fw1 ph3 ph0-l">My projects</h2>
-        <article class="bt bb b--black-10">
-          <a class="db pv4 ph3 ph0-l no-underline black dim" target="_blank" href="https://rushingmarina.github.io/lights-out-game/">
+        <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="wow bounceInUp fw1 ph3 ph0-l">My projects</h2>
+        <article data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" class="bt bb b--black-10">
+          <a class="db pv2 ph3 ph0-l no-underline black dim" target="_blank" href="https://rushingmarina.github.io/lights-out-game/">
             <div class="flex flex-column flex-row-ns">
-              <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+              <div class="icon-box pr3-ns mb4 mb0-ns w-100 w-40-ns">
                 <img src="/img/projects/lights-out.png" class="db" alt="Photo of a dimly lit room with a computer interface terminal.">
+                <a href="https://github.com/rushingMarina" class="social-icon icon-pink" target="_blank"><i class="fab fa-github-square"></i></a>
               </div>
               <div class="w-100 w-60-ns pl3-ns">
                 <h1 class="f3 fw1 mt0 lh-title">Lights-out Game</h1>
                 <p class="f6 f5-l lh-copy">
                   This game is a logic puzzle. You are given a grid of cells, or lights, with some dark and others light. You must turn them all off by clicking on the cells. Each click toggles that cell and each of its immediate neighbors.
                 </p>
-                <p class="f6 lh-copy mv0">The whole thing is built using React</p>
+                <p class="f6 lh-copy mv0">The whole thing is built using React.</p>
               </div>
             </div>
           </a>
         </article>
-        <article class="bb b--black-10">
-          <a class="db pv4 ph3 ph0-l no-underline black dim" target="_blank" href="http://www.rushingmarina.com/egor/">
+        <article data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" class="bb b--black-10">
+          <a class="db pv2 ph3 ph0-l no-underline black dim" target="_blank" href="http://www.rushingmarina.com/egor/">
             <div class="flex flex-column flex-row-ns">
-              <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+              <div class="icon-box pr3-ns mb4 mb0-ns w-100 w-40-ns">
                 <img src="img/projects/yelsewhere.png" class="db" alt="Photo of a warehouse with stacked shelves.">
+                <a href="https://github.com/rushingMarina" class="social-icon icon-pink" target="_blank"><i class="fab fa-github-square"></i></a>
               </div>
               <div class="w-100 w-60-ns pl3-ns">
-                <h1 class="f3 fw1 mt0 lh-title">Warehouse Prices Are Fast on the Rise</h1>
+                <h1 class="f3 fw1 mt0 lh-title">Los Angeles based photographer and videographer</h1>
                 <p class="f6 f5-l lh-copy">
-                  A warehouse is a commercial building for storage of goods.
-                  Warehouses are used by manufacturers, importers, exporters,
-                  wholesalers, transport businesses, customs, etc. They are
-                  usually large plain buildings in industrial areas of cities,
-                  towns and villages.
+                    Egor Barkanov was born in Cuba and lived most of his life in Ukraine. He moved to Los Angeles in 2016 to pursue his passion, which is videography. Egor is also interested in music and currently he is working on his first album whcih he plans to release very soon :)
                 </p>
-                <p class="f6 lh-copy mv0">By Robin Darnell</p>
+                <p class="f6 lh-copy mv0">His website was built using HTML5, CSS3 and JS.</p>
               </div>
             </div>
           </a>
         </article>
-        <article class="bb b--black-10">
-          <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
+        <article data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" class="bb b--black-10">
+            <a class="db pv2 ph3 ph0-l no-underline black dim" target="_blank" href="http://rushingmarina.com/portfolio/">
+              <div class="flex flex-column flex-row-ns">
+                <div class="icon-box pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                  <img src="img/projects/portfolio.png" class="db" alt="Photo of a warehouse with stacked shelves.">
+                  <a href="https://github.com/rushingMarina" class="social-icon icon-pink" target="_blank"><i class="fab fa-github-square"></i></a>
+                </div>
+                <div class="w-100 w-60-ns pl3-ns">
+                  <h1 class="f3 fw1 mt0 lh-title">My first portfolio website</h1>
+                  <p class="f6 f5-l lh-copy">
+                      Egor Barkanov was born in Cuba and lived most of his life in Ukraine. He moved to Los Angeles in 2016 to pursue his passion, which is videography. Egor is also interested in music and currently he is working on his first album whcih he plans to release very soon :)
+                  </p>
+                  <p class="f6 lh-copy mv0">His website was built using HTML5, CSS3 and JS.</p>
+                </div>
+              </div>
+            </a>
+          </article>
+        <article data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" class="bb b--black-10">
+          <a class="db pv2 ph3 ph0-l no-underline black dim" target="_blank" href="http://rushingmarina.com/rm-demo/">
             <div class="flex flex-column flex-row-ns">
-              <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                <img src="http://mrmrs.github.io/photos/whale.jpg" class="db" alt="Photo of a whale's tale coming crashing out of the water.">
+              <div class="icon-box pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                <img src="img/projects/rushing.png" class="db" alt="Photo of a whale's tale coming crashing out of the water.">
+                <a href="https://github.com/rushingMarina" class="social-icon icon-pink" target="_blank"><i class="fab fa-github-square"></i></a>
               </div>
               <div class="w-100 w-60-ns pl3-ns">
-                <h1 class="f3 fw1 mt0 lh-title">Giant Whale Invests Huge Money to Build a Computer Out of Plankton</h1>
+                <h1 class="f3 fw1 mt0 lh-title">Rushing Marina</h1>
                 <p class="f6 f5-l lh-copy">
-                  Whale is the common name for a widely distributed and diverse
-                  group of fully aquatic placental marine mammals. They are an
-                  informal grouping within the infraorder Cetacea, usually
-                  excluding dolphins and porpoises.
+                  This was the first legit website I did. While I was coding it I learned a lot of cool front end tools that I still use today. While coding it I learned how important it is to pay attention to details like lazy loading and smooth scrolling. Small details are important part of the user experience.
                 </p>
-                <p class="f6 lh-copy mv0">By Robin Darnell</p>
+                <p class="f6 lh-copy mv0">Built using HTML5, CSS3 and Bootstrap.</p>
               </div>
             </div>
           </a>
         </article>
       </section>
     <script src="https://kit.fontawesome.com/95086a1647.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

@@ -1,3 +1,7 @@
+@import url(//fonts.googleapis.com/css?family=Vibur);
+html,body{
+  height:100%
+}
 /**************************
 COLORS:
 dark grey:  #222831;
@@ -30,6 +34,21 @@ body, html {
     text-shadow: 0 0 3px #17181C;
     text-shadow: 5px 5px 5px #17181C;
     color: #393e46;
+}
+
+.logo {
+    font: 400 10vh "Vibur";
+    color: #00fff5;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #00adb5, 0 0 0.5em #00adb5, 0 0 0.1em #00adb5, 0 10px 3px #000;
+  }
+
+.myimg {    
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+
+.myimg:hover {
+    transform: scale(1.5);
 }
 
 .profile h1,
@@ -74,4 +93,19 @@ Articles
 .articles p {
     color: #00adb5;
 
+}
+
+.article-name {
+    display: flex;
+
+}
+
+.no-underline {
+    padding-top: 2rem;
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
