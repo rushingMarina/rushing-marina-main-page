@@ -23,7 +23,7 @@ body, html {
 }
 
 .home-background-cover {
-    background-image: url(../img/space.png);
+    background-image: url(img/space.png);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
