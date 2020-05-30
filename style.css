@@ -79,6 +79,7 @@ body, html {
 .social-icon i {
     font-size: 30px;
     color: #00adb5;
+    padding-bottom: 5px;
 }
 .social-icon i:hover {
 	color: #00fff5;
@@ -112,4 +113,6 @@ Articles
 
 .icon-box i {
     font-size: 1.3rem;
+    padding-bottom: .5rem;
 }
+
