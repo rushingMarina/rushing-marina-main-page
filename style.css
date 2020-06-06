@@ -116,3 +116,11 @@ Articles
     padding-bottom: .5rem;
 }
 
+footer {
+    color: black;
+    opacity: 0.5;
+}
+
+footer a {
+    color: black;
+}
